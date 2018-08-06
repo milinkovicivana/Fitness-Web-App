@@ -1,0 +1,359 @@
+@media screen and (min-width: 768px) {
+  .topnav a {
+  width: 12.49%;  
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+    font-size: 17px;
+  }
+}
+
+
+
+
+@media (max-width:600px) {
+  img#logo{
+  margin-top:15px;
+  width:108px;
+  height: 180px;
+  cursor: pointer;
+}
+}
+
+
+@media (min-width: 600px){
+  div#mapakontakt{
+    width:100%;
+    height:300px;
+    margin-top: 3%;
+  }
+}
+
+
+@media (max-width:600px) {
+  div#mapakontakt{
+    width:100%;
+    height:300px;
+    padding: 0;
+    margin-top: 2%;
+  }
+}
+
+
+@media (min-width: 600px){
+  div.levi{
+    width:70%;
+    max-width:70%;
+    height:100%;
+    padding-left:25px;
+    padding-right:25px;
+    float:left;
+  }
+	
+}
+
+
+@media (max-width:600px) {
+  div.levi{
+    width:100%;
+    padding:0;
+    position: relative;
+    top: 100px;
+  }
+}
+
+@media (max-width:600px) {
+  div#sidebar{
+    width:30%;    
+  	}
+
+    div#spisakPolaznika{
+      width:100%;    
+    }
+}
+
+@media (min-width:768px) {
+  div#sidebar2{
+    display: none;   
+  	}
+	div#sidebar{
+    display: block;   
+  	}
+	
+}
+@media (max-width:768px) {
+  
+  div#sidebar2{
+    display: block;   
+  	}
+	div#sidebar{
+    display: none;   
+  	}
+	
+}
+
+@media (min-width: 600px){
+ 
+	div#sidebar{
+    width:30%;
+ 	  }
+
+    div#dodaj{
+    width:30%;
+    }
+}
+
+@media(min-width: 601px) and (max-width: 768px){
+  
+	div#sidebar{
+    width:80%;
+  }
+
+  div#dodaj{
+    width:80%;
+  }
+
+  .zaposlen {
+      width: 100%;
+      margin: 0;
+      padding:0;
+    height:auto;
+    position: relative;
+    top: 80px;
+    }
+  
+}
+
+
+ @media (max-width: 600px){
+
+  .dugmici button{
+    width: 50%;
+  }
+  
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+    	width: 100%;
+    }
+  
+    /*ul {
+    	height: 300px;
+    }
+   
+    ul li {
+    	width: 100%;
+		margin:0;
+		padding:0;
+    	
+    }*/
+
+    div#vesti{
+    width:100%;
+ 	}
+
+  div#vesti1{
+    width:100%;
+  }
+	#vesti p {
+	 padding-left:25px;
+    padding-right:25px;
+	}
+
+  #vesti h2{
+    padding-left:25px;
+    padding-right:25px;
+  }
+
+ 	.info {
+    	width: 100%;
+    	float: none;
+    	padding: 0;
+    }
+    .info input {
+    	width: 90%;
+    	height: 30px;
+      border: solid thin white;
+      border-radius: 14px;
+    }
+
+    .info textarea{
+     width: 90%;
+    height: 50px;
+    border: solid thin white;
+    border-radius: 14px;
+    }
+
+    .zaposlen {
+    	width: 100%;
+    	margin: 0;
+    	padding:0;
+		height:auto;
+    }
+
+    #kon{
+  width: 100%;
+  text-align: center;
+}    #kon2{
+	 width: 100%;
+  text-align: center;
+	}
+  
+
+
+    .thumbnail {
+    	width: 100%;
+    	margin: 0;
+    	padding:0;
+    }
+
+    .velikaSlika{
+  width: 100%;
+  margin:0;
+  padding: 0;
+  margin-top: 5%;
+}
+
+.velikaSlika img{
+  width: 100%;
+  border-style: ridge;
+  border-color: white;
+}
+
+.slicice{
+  width: 100%;
+  margin-top: 2%;
+}
+
+.slicice img{
+  width: 41.66%;
+  border-style: ridge;
+  border-color: white;
+  margin-left: 5%;
+
+}
+
+img#slikav1.slikevesti{
+  float:none;
+  width: 100%;
+  
+}
+
+img#slikav2.slikevesti{
+  float:none;
+  width: 100%;
+ 
+}
+
+	
+	div#glavni {
+	width:100%;
+	height:auto;
+	display: inline-flex;
+	margin:0 auto;
+}
+
+div#glavni1 {
+  width:100%;
+  /*height:630px;*/
+  display: inline-flex;
+  margin:0 auto;
+}
+
+div.v1{
+  width: 100%;
+  height: auto;
+  margin:0 auto;
+  text-align: justify;
+}
+
+div.v img{
+  width: 84%;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
+.adresa{
+  width: 100%;
+  margin: 0;
+  padding:0;
+ height:100%;
+ float: none;
+ text-align: center;
+ font-size: 15px;
+}
+
+.adresa h2{
+  font-size: 20px;
+}
+
+.kontaktForma{
+  width: 100%;
+  margin: 0;
+  padding:1%;
+ height:100%;
+ float: none;
+}
+
+
+#cene{
+	margin-left: 3%;
+}
+
+div#dodaj{
+    width:80%; 
+    margin: 0;
+      padding:0;
+    height:auto;
+    position: relative;
+    top: 80px;   
+ }
+
+
+
+}
+
+
+@media (max-width: 768px){
+	div#teretana{
+	width: 100%;
+	padding: 0;
+	margin:0;
+}
+
+div#fitnes{
+	width: 100%;
+	padding: 0;
+	margin:0;
+}
+
+div#dodaj{
+    width:80%; 
+    margin: 0;
+      padding:0;
+    height:auto;
+    position: relative;
+    top: 80px;   
+ }
+}

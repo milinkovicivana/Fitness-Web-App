@@ -1,0 +1,989 @@
+
+* {box-sizing: border-box;}
+
+body{
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:14px;
+  line-height:1.42857143;
+  color:#AC3B61;
+  background-color:#eee2dc;
+  margin:auto;
+}
+
+
+
+
+
+
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #ffe6e9;
+}
+
+.topnav a {
+   float: left;
+  display: block;
+  color: #AC3B61;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.topnav a:hover {
+  background-color: #AC3B61;
+  color: #ffe6e9;
+  cursor: pointer;
+}
+
+
+
+a.active{
+  background-color: #eee2dc;
+  color:#AC3B61;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+    font-size: 17px;
+  }
+}
+
+
+
+
+
+
+
+.zaposlen img {
+	width: 100%;
+	height: auto;
+  border-radius: 14px;
+}
+
+.container {
+	width: 80%;
+	height: auto;
+	margin:0 auto;
+}
+
+img#logo{
+  margin-top:15px;
+  width:130px;
+  height: 180px;
+  cursor: pointer;
+}
+
+@media (max-width:600px) {
+  img#logo{
+  margin-top:15px;
+  width:108px;
+  height: 180px;
+  cursor: pointer;
+}
+
+.admin{
+
+   font-size: 12px;
+   margin-right: 8%;
+   margin-left: 8%;
+
+}
+
+input.info{
+
+    padding:10px;
+    width:80%;
+    height:20px;
+    font-size:15px;
+    color:#936c79;
+    margin-left: 5%;
+}
+
+}
+
+
+h1#ime{
+  margin-top:55px;
+  font-style:oblique;
+  font-weight:300;
+  font-size: 35px;
+  color: #AC3B61;
+}
+
+
+
+div#heder{
+	width: 100%;
+	height:200px;
+	background-color: #dec6ba;
+}
+
+div#logo{
+	width: 30%;
+	float: left;
+	background-color: #dec6ba;
+}
+
+div#naslov{
+	width: 70%;
+	float: right;
+	background-color: #dec6ba;
+	height: 200px;
+}
+
+/*ul {
+	width: 100%;
+	height: 50px;
+	background:#c2a3ae;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 18px;
+	line-height: 50px;
+	vertical-align: middle;
+
+}
+ul li a {
+	text-align: center;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	color: white;
+}
+ ul li {
+	display: inline-block;
+	color: white;
+	width: 15%;
+	margin: 0;
+	padding: 0;
+}
+ul li:hover {
+	background: #674551;
+  cursor: pointer;
+}*/
+
+div#teretana{
+	width: 40%;
+	height: 300px;
+	float: left;
+	margin-left: 5%;
+	box-shadow: 1px 5px 13px #888888;
+	background-image: url('../img/iStock_90257639_MEDIUM.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -1;
+	margin-top: 5%;
+	cursor: pointer;
+}
+
+div#fitnes{
+	width: 40%;
+	height: 300px;
+	float: right;
+	margin-right: 5%;
+	box-shadow: 1px 5px 13px #888888;
+	background-image: url('../img/Exercise-t.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -1;
+	margin-top: 5%;
+	cursor: pointer;
+}
+
+
+  div#teretana h2, div#fitnes h2{
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  padding-top: 25%;
+
+}
+
+
+
+
+h3{
+	font-size: 20px;
+	text-align: center;
+}
+
+div#teretana p, div#fitnes p{
+	text-align: center;
+	font-size: 15px;
+}
+
+#cena{
+	line-height: 3;
+	background-color: lightgreen;
+}
+
+div#glavni {
+	width:100%;
+	height:auto;
+	display: inline-flex;
+	margin:0 auto;
+}
+
+div#glavni1 {
+  width:100%;
+  height:auto;
+  display: inline-flex;
+  margin:0 auto;
+}
+
+div#vesti {
+	width: 100%;
+  height: auto;
+	margin:0 auto;
+	text-align: justify;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+div#vesti1 {
+  width: 100%;
+  height: auto;
+  margin:0 auto;
+  text-align: justify;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+div.v1{
+  width: 100%;
+  height: auto;
+  margin:0 auto;
+  text-align: justify;
+}
+
+p.v{
+  text-align:justify;
+  font-size:medium;
+}
+
+
+img#slikav1.slikevesti{
+  float:left;
+  padding-top:5px;
+  padding-right:25px;
+}
+
+img#slikav2.slikevesti{
+  float:right;
+  padding-top:5px;
+  padding-left:25px;
+}
+
+h2{
+  font-family:inherit;
+  font-weight:300;
+  line-height:1;
+  font-size:28px;
+}
+
+h2#tim{
+  font-family:inherit;
+  font-weight:300;
+  line-height:1;
+  font-size:28px;
+  margin-left: 20px;
+}
+
+.info h2{
+  font-family:inherit;
+  font-weight:300;
+  line-height:1;
+  font-size:28px;
+  color: rgb(221,211,211);
+}
+
+a.opsirnije{
+  float:right;
+  text-decoration:underline;
+  font-style:oblique;
+  color:#5f2135;
+}
+
+a:hover{
+  color:#965454;
+}
+
+a:focus{
+  color:#814f61;
+}
+
+.active{
+	background: #674551;
+}
+
+.zaposlen {
+	width: 40%;
+	height: 300px;
+	float: left;
+	margin:2%; 
+	text-align: center;
+	font-size: 18px;
+	padding-top: 0;
+	text-align: center;
+}
+
+#zaposlen {
+	margin-top:5%;	
+}
+
+
+  div#vesti{
+    width:100%;
+    height:100%;
+    float:left;
+  }
+
+
+p.aaa{
+  padding-top:2px;
+  margin-top:3px;
+  color: #AC3B61;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.info {
+	width: 100%;
+	height: auto;
+	float: left;
+	color: black;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+   
+}
+
+.info input{
+	width: 100%;
+	height: 35px;
+  padding-bottom: 1%;
+  border: solid thin white;
+  border-radius: 14px;
+  color: #AC3B61;
+  box-shadow: 1px 5px 13px #888888;
+   font-style: italic;
+   font-size: 20px;
+   outline: none;
+}
+
+.info textarea{
+  width: 100%;
+  height: 50px;
+  border: solid thin white;
+  border-radius: 14px;
+  box-shadow: 1px 5px 13px #888888;
+   font-style: italic;
+    color: #AC3B61;
+    font-size: 17px;
+    outline: none;
+}
+
+button{
+
+	width: 70px;
+	height: 30px;
+	margin-top: 10px;
+
+}
+
+/* *** konkurs *** */
+
+#konkurs p{
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  color: #AC3B61;
+}
+
+
+#kon{
+  width: 100%;
+  height: auto;
+  float: right;
+  width: 100%;
+  background-color: #e5e5e5;
+  color: #AC3B61;
+  padding: 8px;
+}
+#kon2{
+  width: 100%;
+  height: auto;
+  float: right;
+  width: 100%;
+  background-color: #e5e5e5;
+  color: #AC3B61;
+  padding: 8px;
+}
+
+
+#konkurs {
+  float: right;
+  width: 100%;
+  background-color: #e5e5e5;
+  margin-top: 40px;
+  padding: 8px;
+  cursor: pointer;
+}
+#konkurs2 {
+  float: right;
+  width: 100%;
+  background-color: #e5e5e5;
+  margin-top: 40px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+label{
+  display: block;
+}
+
+#kon{
+  display: none;
+}
+#kon2{
+	display: none;
+}
+
+#spisak {
+  float: right;
+  width: 100%;
+  background-color: #e5e5e5;
+  margin-top: 40px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+#spisak p{
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  color: #AC3B61;
+}
+
+
+#spisak1{
+  width: 100%;
+  height: auto;
+  float: right;
+  width: 100%;
+  background-color: #e5e5e5;
+  color: #AC3B61;
+  padding: 8px;
+}
+
+#spisak1{
+  display: none;
+}
+
+#spisakPolaznika{
+  float: left;
+  width: 20%;
+}
+
+  
+
+
+
+
+
+
+
+.thumbnail{
+	width: 33%;
+	height: auto;
+	float: left;
+	padding:1%; 
+	padding-top: 1px;
+
+}
+
+#thumbnail {
+	margin-top:2%;
+	margin-bottom:-2%;
+}
+
+.thumbnail img {
+	width: 100%;
+	height: auto;
+	border-style: ridge;
+	border-color: white;
+}
+
+.velikaSlika{
+  width: 70%;
+  margin-top: 2%;
+}
+
+.velikaSlika img{
+  width: 90%;
+  /*width: 80%;*/
+  border-style: groove;
+  border-color: white;
+}
+
+.slicice{
+  width: 100%;
+  margin-top: 2%;
+}
+
+.slicice img{
+  width: 16%;
+  border-style: ridge;
+  border-color: white;
+
+}
+
+.slicice img:hover{
+  border-color: #936c79;
+}
+
+.slicice img:focus{
+  border-color: purple;
+}
+
+
+
+
+
+
+.adresa{
+  width: 40%;
+  height: 450px;
+  float: left;
+  font-size: 18px;
+  padding-top:0;
+  padding-left: 2%;
+  margin-bottom: 5%;
+  text-align: center;
+   
+}
+
+
+h2{
+  color: #5f2135;
+}
+
+
+
+ .kontaktForma{
+  width: 50%;
+  height: 300px;
+  float: right;
+  font-size: 18px;
+  padding-top: 0;
+  margin-bottom: 5%;
+ }
+
+
+
+ .dugmici{
+  margin-top: 5%;
+ }
+
+ .dugmici button{
+    width: 33.33%;
+    height: 50px;
+    border: solid thin white;
+    border-radius: 14px;
+    font-size: 17px;
+    font-weight: bold;
+    color: purple;
+    cursor: pointer;
+    outline: none;
+
+ }
+
+ .dugmici button:hover{
+  border-color: purple;
+ }
+
+
+
+ .otvoreno{
+  background-color:  #dec6ba;
+ }
+
+#galerija{
+  border-style: groove;
+  border-width: 5px;
+}
+
+/*div#teretana{
+
+	width: 50%;
+	float: left;
+	margin-top: 3%;
+	height: 500px;
+	background-image: url('../img/iStock_90257639_MEDIUM.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -1;
+	
+}
+
+#teretana ul li{
+	list-style-image: url('../img/White_check.svg.png');
+	padding-top: 2%;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+	z-index: 1;
+	clear: both;
+	margin-left: 5%;
+}
+
+#teretana h2{
+	text-align: center;
+	z-index: 1;
+	color: white;
+	font-weight: bold;
+	
+}
+
+div#fitnes{
+
+	width: 50%;
+	float: right;
+	margin-top: 3%;
+	height: 500px;
+	background-image: url('../img/Exercise-t.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -1;
+}
+
+#fitnes ul li{
+	list-style-image: url('../img/White_check.svg.png');
+	padding-top: 2%;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+	z-index: 1;
+	clear: both;
+}
+
+#fitnes h2{
+	text-align: center;
+	z-index: 1;
+	color: white;
+	font-weight: bold;
+	clear: both;
+	
+}*/
+
+/*@media (max-width: 600px){
+  div#glavni1 {
+  width:100%;
+  height:630px;
+  display: inline-flex;
+  margin:0 auto;
+}
+}*/
+
+
+
+
+
+  #konkursForma {
+  background-color:rgba(255,255,255,0.7);
+  width:300px;
+  height:350px;
+  border-radius:10px;
+  border-bottom: 5px solid #584149;
+  padding: 10px;
+  box-shadow: 1px 5px 13px #936c79;
+  margin-top: 35px;
+}
+
+
+#konkursForma #ime, #konkursForma #prezime, #konkursForma #email, #konkursForma #telefon
+{
+  padding:10px;
+    width:80%;
+    height:20px;
+    font-size:20px;
+    border:0px;
+    outline:none;
+    background:none;
+    color:#3b2b30;
+    font-family: 'Montserrat',sans-serif;
+    transition: all .3s;
+    border-bottom: 1px solid #936c79;
+    cursor:pointer;
+}
+
+
+#konkursForma #posalji
+{
+  background-color:rgb(255,255,255);
+    color:purple;
+    padding:10px;
+    font-size:20px;
+    border:2px solid #936c79;
+    height: 50px;
+    width: 100px;
+    outline: none;
+}
+
+#konkursForma #posalji:hover
+{
+  background-color:#936c79;
+    color:rgb(255,255,255);
+    border:2px solid white;
+    cursor:pointer;
+}
+
+#konkursForma p, #konkursForma #cv{
+  color: #936c79;
+}
+
+.registracija {
+    background-color:rgba(255,255,255,0.7);
+    width:300px;
+    height:320px;
+    border-radius:10px;
+    border-bottom: 5px solid #584149;
+    padding-top: 30px;
+    box-shadow: 1px 5px 13px #888888;
+    margin-top: 5%;
+}
+
+.registracija #email, .registracija #pass, .registracija #ime, .registracija #prezime
+{
+    padding:10px;
+    width:80%;
+    height:20px;
+    font-size:20px;
+    color:#936c79;
+}
+
+.registracija #email:focus, .registracija #pass:focus, .registracija #ime:focus, .registracija #prezime:focus
+{
+    background-color:#dec6ba;
+}
+
+.registracija #signin
+{
+    background-color:rgb(255,255,255);
+    color:purple;
+    padding:10px;
+    font-size:20px;
+    border:2px solid #936c79;
+    height: 50px;
+    width: 100px;
+    outline: none;
+}
+
+.registracija #signin:hover
+{
+    background-color:#936c79;
+    color:rgb(255,255,255);
+    border:2px solid white;
+    cursor:pointer;
+}
+
+.registracija #cek{
+  width: 20px;
+  height: 20px;
+}
+
+.registracija span{
+  font-size: 15px;
+  color: purple;
+}
+
+.registracija1 {
+    background-color:rgba(255,255,255,0.7);
+    width:300px;
+    height:220px;
+    border-radius:10px;
+    border-bottom: 5px solid #584149;
+    padding-top: 30px;
+    box-shadow: 1px 5px 13px #888888;
+    margin-top: 5%;
+}
+
+.registracija1 #email, .registracija1 #pass
+{
+    padding:10px;
+    width:80%;
+    height:20px;
+    font-size:20px;
+    color:#936c79;
+}
+
+.registracija1 #email:focus, .registracija1 #pass:focus{
+    background-color: #dec6ba;
+}
+
+.registracija1 #signin
+{
+    background-color:rgb(255,255,255);
+    color:purple;
+    padding:10px;
+    font-size:20px;
+    border:2px solid #936c79;
+    height: 50px;
+    width: 100px;
+    outline: none;
+}
+
+.registracija1 #signin:hover
+{
+    background-color:#936c79;
+    color:rgb(255,255,255);
+    border:2px solid white;
+    cursor:pointer;
+}
+
+.registracija1 #cek{
+  width: 20px;
+  height: 20px;
+}
+
+.registracija1 span{
+  font-size: 15px;
+  color: purple;
+}
+
+.btn{
+  height: 50px;
+  width: 100px;
+  border: solid thin white;
+  border-radius: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #AC3B61;
+  color: white;
+  outline: none;
+}
+
+.btn:hover{
+	background-color: #dec6ba;
+	color: #AC3B61;
+}
+
+
+#sidebar{
+	float: right;
+	width: 20%;
+}
+
+#dodaj{
+  float: right;
+  width: 20%;
+}
+
+#dodajVest{
+
+   width:300px;
+    height:300px;
+    border-radius:10px;
+    border-bottom: 5px solid #584149;
+    padding-top: 30px;
+    box-shadow: 1px 5px 13px #888888;
+    margin-top: 5%;
+     background-color:rgba(255,255,255,0.7);
+}
+
+input#naslov{
+
+  padding:10px;
+    width:80%;
+    height:20px;
+    font-size:15px;
+    color:#936c79;
+}
+
+input#tekst{
+
+  padding:10px;
+    width:80%;
+    height:60px;
+    font-size:15px;
+    color:#936c79;
+}
+
+#admin{
+
+  font-size: 12px;
+}
+
+.admin{
+
+   font-size: 12px;
+
+}
+
+input.info{
+
+    padding:10px;
+    width:80%;
+    height:20px;
+    font-size:15px;
+    color:#936c79;
+    margin-left: 10%;
+}
+
+#dodajInfo{
+
+   width:300px;
+    height:60%;
+    border-radius:10px;
+    border-bottom: 5px solid #584149;
+    padding-top: 30px;
+    box-shadow: 1px 5px 13px #888888;
+    margin-top: 5%;
+    background-color:rgba(255,255,255,0.7);
+}
+
+
+
+
+
+
+
+  
+
+
+
+
