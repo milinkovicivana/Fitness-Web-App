@@ -22,7 +22,6 @@ if($email=='admin@gmail.com'){ ?> <form method="post" id="dodajGalerija" enctype
 	}
 }
 
-//echo "<a href='".$row['putanja'].$row['imeslike']."' data-lightbox='slike'>"."<img src='".$row['putanja'].$row['imeslike']."'/></a>";
 
 
 
