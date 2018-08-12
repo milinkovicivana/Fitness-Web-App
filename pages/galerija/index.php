@@ -74,10 +74,6 @@ include '../../php/dodajSliku.php';
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
   </div>
 
-    <!--<center><div class="velikaSlika">
-        <img src="../../img/slika3.jpg" id="galerija">
-    </div></center> -->
-
     <div class="slicice">
         
     </div>
