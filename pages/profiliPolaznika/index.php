@@ -18,6 +18,12 @@ if(isset($_GET['id'])){
     $id=$_GET['id'];
 }
 
+$idLogovanog=$sesija->get("userId");
+
+if($id==$idLogovanog){
+    header("Location:../profil/index.php");
+}
+
 $nadji=$korisnik->nadjiPolaznikaPoId($id);
 
 if($nadji){
